@@ -5,6 +5,9 @@ import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import PageFooter from "../component/PageFooter";
+import RecommendRecipeCard from "../component/recipe/RecommendRecipeCard";
+import LocalDiningIcon from "@mui/icons-material/LocalDining";
 
 function HomePage() {
   const settings = {
@@ -17,7 +20,7 @@ function HomePage() {
     cssEase: "linear",
   };
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <PageHeader />
       <div className="popRecipeCardList">
         <div className="popRecipeCardListTitle">
@@ -51,7 +54,17 @@ function HomePage() {
             </div>
           </Slider>
         </div>
+        <div className="popRecipeCardListTitle">
+          <LocalDiningIcon sx={{ fontSize: "35px" }} />
+          <h2>推薦食譜</h2>
+        </div>
+        <div className="recommendRecipeCardContainer">
+          <RecommendRecipeCard />
+          <RecommendRecipeCard />
+          <RecommendRecipeCard />
+        </div>
       </div>
+      <PageFooter />
     </div>
   );
 }

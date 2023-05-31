@@ -1,5 +1,7 @@
 .popRecipeCardList {
   margin: 20px;
+  overflow: scroll;
+  height: 65%;
   .popRecipeCardListTitle {
     font-size: 20px;
     font-weight: bold;
@@ -11,31 +13,43 @@
   .popRecipeCardContainer {
     display: flex;
     overflow: scroll;
-  }
-  .popRecipeCard {
-    min-width: 300px;
-    border: 2px solid $primary-color;
-    border-radius: 10px;
-    margin: 0 15px;
-    .MuiPaper-root {
+    .popRecipeCard {
+      min-width: 300px;
+      border: 2px solid $primary-color;
       border-radius: 10px;
-      .MuiTypography-h5 {
-        color: $primary-color;
-        font-weight: bold;
-      }
-      .MuiTypography-body1 {
-        color: $font-color;
-      }
-      .MuiCardActions-root {
-        display: flex;
-        justify-content: center;
-        .MuiButtonBase-root {
+      margin: 0 15px;
+      .MuiPaper-root {
+        border-radius: 10px;
+        .MuiTypography-h5 {
           color: $primary-color;
-          font-size: 30px;
-          .MuiTypography-root {
-            margin-left: 5px;
+          font-weight: bold;
+        }
+        .MuiTypography-body1 {
+          color: $font-color;
+        }
+        .MuiCardActions-root {
+          display: flex;
+          justify-content: center;
+          .MuiButtonBase-root {
+            color: $primary-color;
+            font-size: 30px;
+            .MuiTypography-root {
+              margin-left: 5px;
+            }
           }
         }
+      }
+    }
+  }
+  .recommendRecipeCardContainer {
+    overflow: scroll;
+    height: 300px;
+    // background-color: aqua;
+    .recommendRecipeCard {
+      .MuiPaper-root {
+        border: 2px solid $primary-color;
+        border-radius: 20px;
+        margin: 15px;
       }
     }
   }
