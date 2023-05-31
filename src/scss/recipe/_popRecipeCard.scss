@@ -1,0 +1,42 @@
+.popRecipeCardList {
+  margin: 20px;
+  .popRecipeCardListTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+  }
+  .popRecipeCardContainer {
+    display: flex;
+    overflow: scroll;
+  }
+  .popRecipeCard {
+    min-width: 300px;
+    border: 2px solid $primary-color;
+    border-radius: 10px;
+    margin: 0 15px;
+    .MuiPaper-root {
+      border-radius: 10px;
+      .MuiTypography-h5 {
+        color: $primary-color;
+        font-weight: bold;
+      }
+      .MuiTypography-body1 {
+        color: $font-color;
+      }
+      .MuiCardActions-root {
+        display: flex;
+        justify-content: center;
+        .MuiButtonBase-root {
+          color: $primary-color;
+          font-size: 30px;
+          .MuiTypography-root {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

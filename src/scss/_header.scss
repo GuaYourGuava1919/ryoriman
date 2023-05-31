@@ -1,0 +1,22 @@
+.header {
+  background-color: $primary-color;
+  padding: 15px;
+  border-radius: 0 0 30px 30px;
+  .header__marquee {
+    display: flex;
+    color: $font-color-light;
+  }
+  .header__title {
+    padding-top: 20px;
+    color: $font-color-light;
+    h2 {
+      margin-left: 10px;
+    }
+    .header__titleName {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+    }
+  }
+}

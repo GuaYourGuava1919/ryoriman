@@ -1,0 +1,30 @@
+.inputX {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 0 5%;
+    color: $font-color;
+  }
+  .inputX_submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $font-color-light;
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.3);
+    color: $font-color;
+    background-color: $secondary-color;
+  }
+}

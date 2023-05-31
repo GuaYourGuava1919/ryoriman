@@ -1,0 +1,12 @@
+.carousel {
+  margin-top: 30px;
+  background-color: red;
+  .slick-slider {
+    height: 250px;
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+      display: none;
+    }
+  }
+}

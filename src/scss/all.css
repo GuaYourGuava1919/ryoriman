@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inputX {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.inputX input {
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 0 5%;
+  color: #444545;
+}
+.inputX .inputX_submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fcfaf2;
+  width: 50px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.3);
+  color: #444545;
+  background-color: #f2a154;
+}
+
+.header {
+  background-color: #f17c67;
+  padding: 15px;
+  border-radius: 0 0 30px 30px;
+}
+.header .header__marquee {
+  display: flex;
+  color: #fcfaf2;
+}
+.header .header__title {
+  padding-top: 20px;
+  color: #fcfaf2;
+}
+.header .header__title h2 {
+  margin-left: 10px;
+}
+.header .header__title .header__titleName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.popRecipeCardList {
+  margin: 20px;
+}
+.popRecipeCardList .popRecipeCardListTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #f17c67;
+  display: flex;
+  align-items: center;
+}
+.popRecipeCardList .popRecipeCardContainer {
+  display: flex;
+  overflow: scroll;
+}
+.popRecipeCardList .popRecipeCard {
+  min-width: 300px;
+  border: 2px solid #f17c67;
+  border-radius: 10px;
+  margin: 0 15px;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root {
+  border-radius: 10px;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root .MuiTypography-h5 {
+  color: #f17c67;
+  font-weight: bold;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root .MuiTypography-body1 {
+  color: #444545;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root .MuiCardActions-root {
+  display: flex;
+  justify-content: center;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root .MuiCardActions-root .MuiButtonBase-root {
+  color: #f17c67;
+  font-size: 30px;
+}
+.popRecipeCardList .popRecipeCard .MuiPaper-root .MuiCardActions-root .MuiButtonBase-root .MuiTypography-root {
+  margin-left: 5px;
+}
+
+.carousel {
+  margin-top: 30px;
+  background-color: red;
+}
+.carousel .slick-slider {
+  height: 250px;
+}
+.carousel .slick-slider .slick-prev:before,
+.carousel .slick-slider .slick-next:before {
+  color: black;
+  display: none;
+}/*# sourceMappingURL=all.css.map */
